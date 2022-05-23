@@ -51,14 +51,14 @@ class Macbeth extends Phaser.Scene {
         this.nextText = this.add.bitmapText(this.NEXT_X, this.NEXT_Y, this.DBOX_FONT, '', this.TEXT_SIZE);
 
         // ready the character dialog images offscreen
-        // this.homer = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'homer').setOrigin(0, 1);
+        //this.homer = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'homer').setOrigin(0, 1);
         // this.minerva = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'minerva').setOrigin(0, 1);
         // this.neptune = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'neptune').setOrigin(0, 1);
         // this.jove = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'jove').setOrigin(0, 1);
         this.messenger = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'Messenger').setOrigin(0,1);
-        this.macbeth = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'Lady MacBeth').setOrigin(0,1);
-        this.murderer = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'First Murderer').setOrigin(0,1);
-        this.son = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'Son').setOrigin(0,1);
+        this.macduff = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'macduff').setOrigin(0,1);
+        this.murderer = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'murderer').setOrigin(0,1);
+        this.son = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'son').setOrigin(0,1);
 
         // input
         cursors = this.input.keyboard.createCursorKeys();
@@ -131,6 +131,7 @@ class Macbeth extends Phaser.Scene {
                     });
                 }
                 // tween in new speaker's image
+                console.log(this);
                 this.tweens.add({
                     targets: this[this.dialogSpeaker],
                     x: this.DBOX_X + 50,

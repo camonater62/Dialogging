@@ -19,9 +19,9 @@ class Title extends Phaser.Scene {
         this.load.image('neptune', 'img/neptune.png');
 
         this.load.image('Messenger', 'img/messenger.png');
-        this.load.image('Lady MacBeth', 'img/macbeth.png');
-        this.load.image('First Murderer', 'img/murderer.png');
-        this.load.image('Son', 'img/son.png');
+        this.load.image('macduff', 'img/macbeth.png');
+        this.load.image('murderer', 'img/murderer.png');
+        this.load.image('son', 'img/son.png');
 
         // load bitmap font
         this.load.bitmapFont('gem_font', 'font/gem.png', 'font/gem.xml');
