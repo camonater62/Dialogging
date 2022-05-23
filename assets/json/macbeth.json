@@ -1,0 +1,116 @@
+[
+    [
+        {
+            "speaker": "Messenger",
+            "dialog": "Bless you, fair dame! I am not to you known,",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "Though in your state of honour I am perfect."
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "I doubt some danger does approach you nearly:"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "If you will take a homely man's advice,"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "Be not found here; hence, with your little ones."
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "To fright you thus, methinks, I am too savage;"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "To do worse to you were fell cruelty,"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "Which is too nigh your person. Heaven preserve you!"
+        },
+        {
+            "speaker": "Messenger",
+            "dialog": "I dare abide no longer."
+        }
+    ],
+    [
+        {
+            "speaker": "Lady MacDuff",
+            "dialog": "Whither should I fly?",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "I have done no harm. But I remember now"
+        },
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "I am in this earthly world; where to do harm"
+        },
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "Accounted dangerous folly: why then, alas,"
+        },
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "Do I put up that womanly defence,"
+        },
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "To say I have done no harm?"
+        }
+    ],
+    [
+        {
+            "speaker":"Lady MacDuff",
+            "dialog": "What are these faces?"
+        },
+        {
+            "speaker": "First Murderer",
+            "dialog": "Where is your husband?",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker": "Lady MacDuff",
+            "dialog": "I hope, in no place so unsanctified",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker": "Lady MacDuff",
+            "dialog": "Where such as thou mayst find him."
+        },
+        {
+            "speaker": "First Murderer",
+            "dialog": "He's a traitor.",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker": "Son",
+            "dialog": "Thou liest, thou shag-hair'd villain!",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker":"First Murderer",
+            "dialog":"What, you egg!",
+            "newSpeaker": "true"
+        },
+        {
+            "speaker":"First Murderer",
+            "dialog":"Young fry of treachery!"
+        },
+        {
+            "speaker":"Son",
+            "dialog":"He has kill'd me, mother:",
+            "newSpeaker":"true"
+        },
+        {
+            "speaker":"Son",
+            "dialog":"Run away, I pray you!"
+        }
+    ]
+]
